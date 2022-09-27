@@ -25,6 +25,139 @@ header{
     z-index: 10000;
 }
 
+
+.star-icon{
+
+    background-image: url(../img/star-icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 2rem;
+    cursor: pointer;
+
+}
+.joystick-icon{
+    background-image: url(../img/joystick-icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 2rem;
+    cursor: pointer;
+
+}
+.comment-icon{
+    background-image: url(../img/comment-icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 2rem;
+    cursor: pointer;
+
+}
+
+.user-name{
+    position: absolute;
+    left: 5%;
+    top: 20%;
+    font-size: 2.1rem;
+}
+
+.menu-user ul li{
+    list-style: none;
+    font-size: 20px;
+    margin-top: 2rem;
+}
+
+.close-icon{
+    position: absolute;
+    background-image: url(../img/close-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 3rem;
+    left: 0;    
+    top: 2rem;
+    left: 23rem;
+    width: 3rem;
+    cursor: pointer;
+}
+.frame-separator{
+    position: absolute;
+    width: 413px;
+    height: 6px;
+    background:white;
+    left: 13px;
+    top: 30rem;
+}
+
+#inicio{
+    margin-top: 5rem;
+}
+
+.menu-user ul{
+    margin-left: -1rem;
+}
+
+
+.user-image{
+    background-image: url(../img/user-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 9rem;
+    width: 9rem;
+
+}
+
+.menu-user.active{
+    left: 70%;
+}
+.menu-user{
+    transition: 0.3s;
+    left: 100%;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: #322755;
+    width: 439px;
+    height: 586px;
+    top: 0;
+}
+
+.menu-hierarchy{
+    margin-left: 2rem;
+}
+
+.game-layout{
+    background-image: url(../img/Game.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 82rem;
+}
+
+.game-menu{
+    margin: 2rem;
+    display: flex;
+    
+}
+
+.navbar-aside{
+background: #9B92B9;
+left: 4%;
+width: 73px;
+height: 682px;
+top: 18%;
+}
+
+
+.navbar-aside ul {
+    list-style: none;
+    padding: 0;
+    align-items: center ;
+
+}
+
+.navbar-aside li{
+    padding: 0;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
 #load{
     margin: 0 auto;
     width: 100%;
@@ -79,6 +212,20 @@ header{
     margin-right: 10px;
     width: 2.1rem;
     height: 40px;
+    cursor: pointer;
+}
+
+
+.carousel-img{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 30px;
+width: 1232px;
+height: 390px;
+left: 0px;
+top: 68px;
 }
 
 .vector1{
