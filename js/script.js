@@ -5,8 +5,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function loader() {
         setTimeout(function () {
-           // document.getElementById('spinner').style.visibility = "hidden";
-            //document.getElementById('content').style.visibility = "visible";
+            document.getElementById('spinner').style.visibility = "hidden";
+            document.getElementById('content').style.visibility = "visible";
         }, 5000);
     }
 
