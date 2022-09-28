@@ -14,6 +14,8 @@ header{
     justify-content:space-between;
 }
 
+
+
 #content{
     visibility: hidden;
 }
@@ -94,6 +96,27 @@ header{
     margin-left: -1rem;
 }
 
+.form-user-image{
+    position: absolute;
+    height: 63px;
+    width: 64px;
+    background-size: contain;   
+    left:3%;
+    margin-top: 1.2rem;
+
+
+}
+
+.container{
+    flex-direction: column;
+}
+
+.text{
+    display: flex;  
+    margin-left: 7rem;
+    gap: 1rem;
+}
+
 
 .user-image{
     background-image: url(../img/user-image.png);
@@ -119,7 +142,31 @@ header{
     top: 0;
 }
 
-.menu-hierarchy,.carousel-img-title,.help-section,.video-section,.story-section{
+.form-section{
+    width: 1224px;
+    height: 672px;
+}
+
+
+.form-item{
+    height: 6.8rem;
+    width: 75.5rem;
+
+    background: #322755;
+    margin-top: 2rem;
+}
+
+
+.form-user-message{
+    width: 1208px;
+    background: white;
+    height: 91px;
+    background-image: url(../img/user-message.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.menu-hierarchy,.carousel-img-title,.help-section,
+.video-section,.story-section, .form-section{
     margin-left: 2rem;
 }
 
@@ -303,8 +350,14 @@ font-size: 15px;
 
 }
 
+.element-scale:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
 .coming-btn:hover{
     cursor: pointer;
+
 }
 .coming-btn{
 
